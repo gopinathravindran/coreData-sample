@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14C1514" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Contact" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="relationship" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="holidayExams" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Subject" inverseName="guardians" inverseEntity="Subject" syncable="YES"/>
+    </entity>
+    <entity name="Subject" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="mark" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="subjectName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="guardians" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Contact" inverseName="holidayExams" inverseEntity="Contact" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Contact" positionX="-63" positionY="-123" width="128" height="103"/>
+        <element name="Subject" positionX="178" positionY="102" width="128" height="103"/>
+    </elements>
 </model>

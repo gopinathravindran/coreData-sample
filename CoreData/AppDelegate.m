@@ -44,7 +44,7 @@
     [self saveContext];
 }
 
-#pragma mark - Core Data stack
+#pragma mark - Core Data stack Git Commited
 
 @synthesize managedObjectContext = _managedObjectContext;
 @synthesize managedObjectModel = _managedObjectModel;

@@ -10,11 +10,14 @@
 		717229951C097A92003ED793 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 717229941C097A92003ED793 /* main.m */; };
 		717229981C097A92003ED793 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 717229971C097A92003ED793 /* AppDelegate.m */; };
 		7172299B1C097A92003ED793 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 717229991C097A92003ED793 /* CoreData.xcdatamodeld */; };
-		7172299E1C097A92003ED793 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7172299D1C097A92003ED793 /* ViewController.m */; };
 		717229A11C097A92003ED793 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7172299F1C097A92003ED793 /* Main.storyboard */; };
 		717229A31C097A92003ED793 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 717229A21C097A92003ED793 /* Images.xcassets */; };
 		717229A61C097A92003ED793 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 717229A41C097A92003ED793 /* LaunchScreen.xib */; };
 		717229B21C097A92003ED793 /* CoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 717229B11C097A92003ED793 /* CoreDataTests.m */; };
+		717229BD1C098104003ED793 /* ContacListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 717229BC1C098104003ED793 /* ContacListVC.m */; };
+		717229C01C098124003ED793 /* ContactDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 717229BF1C098124003ED793 /* ContactDetailsVC.m */; };
+		717229C31C09B925003ED793 /* SubjectEntryFormVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 717229C21C09B925003ED793 /* SubjectEntryFormVC.m */; };
+		717229C61C09B941003ED793 /* AverageCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 717229C51C09B941003ED793 /* AverageCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +37,20 @@
 		717229961C097A92003ED793 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		717229971C097A92003ED793 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7172299A1C097A92003ED793 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
-		7172299C1C097A92003ED793 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7172299D1C097A92003ED793 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		717229A01C097A92003ED793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		717229A21C097A92003ED793 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		717229A51C097A92003ED793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		717229AB1C097A92003ED793 /* CoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		717229B01C097A92003ED793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		717229B11C097A92003ED793 /* CoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataTests.m; sourceTree = "<group>"; };
+		717229BB1C098104003ED793 /* ContacListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContacListVC.h; sourceTree = "<group>"; };
+		717229BC1C098104003ED793 /* ContacListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContacListVC.m; sourceTree = "<group>"; };
+		717229BE1C098124003ED793 /* ContactDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailsVC.h; sourceTree = "<group>"; };
+		717229BF1C098124003ED793 /* ContactDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetailsVC.m; sourceTree = "<group>"; };
+		717229C11C09B925003ED793 /* SubjectEntryFormVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectEntryFormVC.h; sourceTree = "<group>"; };
+		717229C21C09B925003ED793 /* SubjectEntryFormVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectEntryFormVC.m; sourceTree = "<group>"; };
+		717229C41C09B941003ED793 /* AverageCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AverageCalculator.h; sourceTree = "<group>"; };
+		717229C51C09B941003ED793 /* AverageCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AverageCalculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +94,14 @@
 			children = (
 				717229961C097A92003ED793 /* AppDelegate.h */,
 				717229971C097A92003ED793 /* AppDelegate.m */,
-				7172299C1C097A92003ED793 /* ViewController.h */,
-				7172299D1C097A92003ED793 /* ViewController.m */,
+				717229BB1C098104003ED793 /* ContacListVC.h */,
+				717229BC1C098104003ED793 /* ContacListVC.m */,
+				717229BE1C098124003ED793 /* ContactDetailsVC.h */,
+				717229BF1C098124003ED793 /* ContactDetailsVC.m */,
+				717229C11C09B925003ED793 /* SubjectEntryFormVC.h */,
+				717229C21C09B925003ED793 /* SubjectEntryFormVC.m */,
+				717229C41C09B941003ED793 /* AverageCalculator.h */,
+				717229C51C09B941003ED793 /* AverageCalculator.m */,
 				7172299F1C097A92003ED793 /* Main.storyboard */,
 				717229A21C097A92003ED793 /* Images.xcassets */,
 				717229A41C097A92003ED793 /* LaunchScreen.xib */,
@@ -223,8 +238,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				717229981C097A92003ED793 /* AppDelegate.m in Sources */,
+				717229C01C098124003ED793 /* ContactDetailsVC.m in Sources */,
+				717229C31C09B925003ED793 /* SubjectEntryFormVC.m in Sources */,
 				717229951C097A92003ED793 /* main.m in Sources */,
-				7172299E1C097A92003ED793 /* ViewController.m in Sources */,
+				717229BD1C098104003ED793 /* ContacListVC.m in Sources */,
+				717229C61C09B941003ED793 /* AverageCalculator.m in Sources */,
 				7172299B1C097A92003ED793 /* CoreData.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +370,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CoreData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -362,6 +381,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CoreData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -420,6 +440,7 @@
 				717229B71C097A92003ED793 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		717229B81C097A92003ED793 /* Build configuration list for PBXNativeTarget "CoreDataTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +449,7 @@
 				717229BA1C097A92003ED793 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
